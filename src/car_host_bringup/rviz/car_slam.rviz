@@ -1,0 +1,33 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+
+Visualization Manager:
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Target Frame: map
+      Distance: 8.0
+      Yaw: 1.57
+      Pitch: 0.524
+
+Displays:
+  - Class: rviz_default_plugins/Grid
+    Name: Grid
+    Reference Frame: map
+  - Class: rviz_default_plugins/TF
+    Name: TF
+    Enabled: true
+  - Class: rviz_default_plugins/LaserScan
+    Name: LiDAR Scan
+    Topic: /scan
+    Size (m): 0.05
+    Style: Points
+    Color: 255; 255; 0
+  - Class: rviz_default_plugins/Map
+    Name: SLAM Map
+    Topic: /map
+    Color Scheme: map
+    Alpha: 0.7
