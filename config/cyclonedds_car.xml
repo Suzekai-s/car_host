@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CycloneDDS xmlns="https://cyclonedds.io/schemas/cyclonedds.xsd">
+  <Domain>
+    <General>
+      <NetworkInterfaceAddress>192.168.1.40</NetworkInterfaceAddress>
+    </General>
+    <Discovery>
+      <Peers>
+        <Peer address="192.168.1.246"/>
+      </Peers>
+    </Discovery>
+  </Domain>
+</CycloneDDS>
