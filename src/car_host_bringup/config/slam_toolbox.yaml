@@ -5,7 +5,7 @@ slam_toolbox:
     base_frame: "base_link"
     scan_topic: "/scan"
     mode: "mapping"
-    solver_plugin: "ceres_scan_matching"
+    solver_plugin: "solver_plugins::CeresSolver"
     ceres_linear_solver: "SPARSE_NORMAL_CHOLESKY"
     ceres_huber_width: 0.05
     ceres_max_num_iterations: 10
